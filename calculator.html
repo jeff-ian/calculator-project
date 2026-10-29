@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator</title>
+  <link rel="stylesheet" href="calculator.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="calc-container">
+    <div class="display-container">
+      <div class="display js-display"></div>
+    </div>
+    <div class="buttons-container">
+      <button class="clear js-clear">C</button>
+      <button class="percentage js-percentage">%</button>
+      <button class="delete js-delete"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="delete-button">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M12 9.75 14.25 12m0 0 2.25 2.25M14.25 12l2.25-2.25M14.25 12 12 14.25m-2.58 4.92-6.374-6.375a1.125 1.125 0 0 1 0-1.59L9.42 4.83c.21-.211.497-.33.795-.33H19.5a2.25 2.25 0 0 1 2.25 2.25v10.5a2.25 2.25 0 0 1-2.25 2.25h-9.284c-.298 0-.585-.119-.795-.33Z" />
+    </svg>
+</button>
+      <button class="divide js-divide">÷</button>
+
+      <button class="seven js-seven">7</button>
+      <button class="eight js-eight">8</button>
+      <button class="nine js-nine">9</button>
+      <button class="multiply js-multiply">×</button>
+
+      <button class="four js-four">4</button>
+      <button class="five js-five">5</button>
+      <button class="six js-six">6</button>
+      <button class="subtract js-subtract">−</button>
+
+      <button class="one js-one">1</button>
+      <button class="two js-two">2</button>
+      <button class="three js-three">3</button>
+      <button class="add js-add">+</button>
+
+      <button class="rotate js-rotate">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="rotate-button">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 9V5.25A2.25 2.25 0 0 0 13.5 3h-6a2.25 2.25 0 0 0-2.25 2.25v13.5A2.25 2.25 0 0 0 7.5 21h6a2.25 2.25 0 0 0 2.25-2.25V15m3 0 3-3m0 0-3-3m3 3H9" />
+    </svg>
+
+      </button>
+      <button class="zero js-zero">0</button>
+      <button class="decimal js-decimal">.</button>
+      <button class="equals js-equals">=</button>
+
+
+    </div>
+  </div>
+  <script src="calculator.js"></script>
+</body>
+</html>
